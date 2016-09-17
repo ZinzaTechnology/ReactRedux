@@ -1,14 +1,15 @@
 {
-  "name": "youtubesearch",
+  "name": "redux-simple-starter",
   "version": "1.0.0",
-  "description": "Youtube Search Application written by React & Redux",
+  "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
+  "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-  "author": "VuongDung",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -33,6 +34,5 @@
     "react-router": "^2.0.1",
     "redux": "^3.0.4",
     "youtube-api-search":"0.0.5"
-
   }
 }
